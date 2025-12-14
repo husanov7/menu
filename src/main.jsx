@@ -5,7 +5,7 @@ import "./index.css";
 
 import { ThemeProvider } from "@material-tailwind/react";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./utils/i18n/i18";
+import i18n from "./utils/i18n/i18.js";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
